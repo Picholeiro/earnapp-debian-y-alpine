@@ -4,7 +4,17 @@ Script de instalación de [EarnApp](https://earnapp.com) compatible con **Debian
 
 ## 📥 Descarga
 
-### Desde GitHub
+### Desde GitHub Releases (recomendado)
+
+[![Release v1.0.0](https://img.shields.io/github/v/release/Picholeiro/earnapp-debian-y-alpine)](https://github.com/Picholeiro/earnapp-debian-y-alpine/releases/latest)
+
+```bash
+wget https://github.com/Picholeiro/earnapp-debian-y-alpine/releases/download/v1.0.0/install_v2.sh
+chmod +x install_v2.sh
+sudo sh install_v2.sh -y
+```
+
+### Desde el repositorio
 
 **Clonar el repositorio completo:**
 ```bash
